@@ -1,0 +1,20 @@
+---
+title: "week_7_workshop"
+format: html
+execute: 
+  message: false
+  warning: false
+editor: visual
+---
+
+## 
+
+```{r}
+library(tidyverse)
+library(lterdatasampler)
+```
+
+```{r}
+ggplot(data = hbr_maples, aes(x = leaf1area))+
+  geom_histogram(bins = 12)
+```
